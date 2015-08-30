@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.form-wrap{
+width:100%;
+background:#f8f8f8;
+padding:10px;
+clear:both;
+margin:10px 0;
+}
+.form-wrap label{
+float:left;
+margin-right:10px;
+}
+label.pattern-label{
+	display: block;
+	clear:both;
+	float:left;
+	margin-top:10px;
+}

@@ -1,0 +1,129 @@
+pre{
+max-height:300px;
+}
+
+#logo{
+display: block;
+overflow: hidden;
+height: 60px;
+width: 120px;
+background-image: url(../img/logo.svg);
+background-size:cover;
+white-space: nowrap;
+text-indent: 200%;
+float: left;
+}
+
+#container{
+   padding-left:224px;
+}
+#sidebar{
+  width:200px;
+  position:absolute;
+  margin-left:0;
+}
+
+
+
+.resource-desc{
+display: inline-block;
+margin-left:15px;
+}
+
+#header{
+height:70px;
+background-color: #F7F7F7;
+border-bottom: 1px solid #B1C8D8;
+}
+
+#nav{margin-top:20px;}
+
+#main-content{margin-top:20px;}
+
+#pattern-wrap{
+width:100%;
+margin-bottom: 15px;
+border:1px solid #ccc;
+box-shadow: 0 0 3px rgba(0,0,0,0.2);
+display: block;
+clear:both;
+}
+
+
+.resources-wrap{
+width:100%;
+}
+
+.pagenav h5{
+font-weight:normal;
+color: #666;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.frame-header{
+background-color: #F7F7F7;
+border: 1px solid #B1C8D8;
+border-bottom: 0;
+float: left;
+width: 100%;
+padding:0 10px;
+}
+
+.standalone-link{
+display: inline-block;
+font-size: 14px;
+margin:14px 10px;
+clear:right;
+line-height: 16px;
+float: right;
+}
+
+#mobile-toggler{
+float:left;
+margin:10px 0;
+}
+
+.color-bar{width:100%;height:200px;margin:0;padding:10px;margin-top:10px;color:#000;float:left;}
+.color-block{width:10%;height:100px;margin:0;padding:10px;color:#000;float:left;}
+.color-block.ultra-light-gray{background-color:#f7f7f7;}
+.color-block.text{color:#333;margin-top:-8px;width:50%;margin:0;}
+.clear{clear:left;}
+.border{width:100%;border-top:1px solid #ddd;margin-top:10px;float:left;}
+.border-double{border-width:2px;}
+.border-triple{border-width:3px;}
+.border-quad{border-width:4px;}
+
+h1,h2,h3,h4,h5,h6{
+display: block;
+clear:both;
+}
+
+.menu ul{
+margin:0;
+padding:0;
+}
+.menu ul.children{
+margin:0;
+padding-left:20px;
+}
+.menu ul li{
+list-style:none;
+font-size:1em;
+margin:.5em 0;
+}
+.current_page_item > a,
+.current_page_item > a:active,
+.current_page_item > a:visited{
+  color:#222;
+  font-weight:bold;
+}
+
+
+.search-form{
+float: right;
+margin:20px 0;
+}
+.btn:last-of-type{
+margin:0;
+}

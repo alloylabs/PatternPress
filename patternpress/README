@@ -1,0 +1,18 @@
+PatternPress is a WordPress theme designed for the easy creation and management of design patterns.
+
+It's based on Dan Cederholm's Pears (http://pea.rs), but with a few key additions.
+
+Code patterns can be tied to common resources (css, js) which are injected into the document when previewing patterns.
+Code patterns are previewed in an iframe, allowing for complete separation of pattern css and presentation css used in PatternPress itself.
+Responsive code patterns can be easily toggled between mobile and desktop views. 
+
+- Each pattern is a page in WordPress. 
+- To turn a page into a pattern, check the "show pattern options" selector.
+- Add a description in the main page content field.
+- Select which resources the page uses.
+- Add markup in a custom field named 'html'.
+- Add custom styles in a custom field named 'css'.
+- Add notes styles in a custom field named 'css'.
+
+Learn more and see it in action here:
+http://alloylabs.com/patternPress

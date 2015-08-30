@@ -1,0 +1,55 @@
+html, body{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** headings **/
+h1,h2,h3,h4,h5,h6{
+  margin:.75em 0;
+  color:#666;
+}
+
+h1,h2,h3{
+  font-family: Arial, Helvetica,sans-serif; 
+  font-weight:100;
+}
+h4{
+  font-family:  Arial,Helvetica,sans-serif; 
+}
+h5,h6{
+  font-family: Arial,Helvetica,sans-serif; 
+}
+h1{font-size:2.2em;}
+h2{font-size:1.8em;}
+h3{font-size:1.5em;}
+h4{font-size:1.3em;}
+h5{font-size:.9em;font-weight: 700;}
+h6{font-size:.8em;font-weight: 700;}
+
+/** paragraphs **/
+p:first-of-type{
+  margin-top:0;
+}
+p:last-of-type{
+  margin-bottom:0;
+}
+
+p.disclaimer{
+  font-size:.8em;
+  color: #666;
+}
+
+/**lists**/
+ul, ol{
+  padding-left:1.3em;
+}
+
+/** mobile **/
+@media (max-width: 768px) {
+  h1{font-size:1.6em;}
+  h2{font-size:1.4em;}
+  h3{font-size:1.2em;}
+  h4{font-size:1.1em;}
+  h5{font-size:1em;font-weight: 900;}
+  h6{font-size:.9em;font-weight: 900;}
+}
