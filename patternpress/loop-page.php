@@ -32,7 +32,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		    
 <?php 
 $resources = get_post_meta($post->ID, 'resources', true); 
-if(count($resources)>0){
+if (is_array($resources) || is_object($resources)){
 	echo '<div class="resources-wrap"><h4>Requires</h4>';
 foreach ($resources as $resource) {
 	$resource_obj = get_post($resource);
